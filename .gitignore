@@ -1,0 +1,10 @@
+build/
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.idea/*
+**/.pytest_cache/
+**/.DS_Store
+/dist/*
+
+/reference/*
+/examples/data/*
