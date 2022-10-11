@@ -1,4 +1,3 @@
-
 from tfod.model import TsModel, OdModel
 from tfod.trainer import KerasTrainer
 

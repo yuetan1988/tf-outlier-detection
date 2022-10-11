@@ -18,7 +18,5 @@ class DemoTest(unittest.TestCase):
     def test_demo(self):
         data = tfod.load_data()
 
-        model = AutoModel('lstm')
-        model.detect(data, './', plot=True)
-
-
+        model = AutoModel("lstm")
+        model.detect(data, "./", plot=True)

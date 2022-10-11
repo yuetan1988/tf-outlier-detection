@@ -1,4 +1,3 @@
-
 import unittest
 import tensorflow as tf
 from tfod.models.rnn import RNN
@@ -10,11 +9,11 @@ class RNNTest(unittest.TestCase):
         x = tf.random.normal([2, 10, 1])
 
         y = model(x)
-        self.assertEqual(y.shape, (2, 3), 'incorrect output shape')
+        self.assertEqual(y.shape, (2, 3), "incorrect output shape")
 
     def test_train(self):
         pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
