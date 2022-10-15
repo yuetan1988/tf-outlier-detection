@@ -46,18 +46,16 @@ classifiers = [
     "Topic :: Software Development :: Libraries",
     "Topic :: Software Development :: Libraries :: Python Modules",
     "License :: OSI Approved :: MIT License"]
-description = "Deep learning time series with TensorFlow"
+description = "Outlier detection with TensorFlow"
 repository = "https://github.com/LongxingTan/tf-outlier-detection"
 documentation = "https://tf-outlier-detection.readthedocs.io"
 homepage = "https://tf-outlier-detection.readthedocs.io"
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.11"
+python = ">=3.7,<3.11"
 
 tensorflow = "^2.4.1"
-optuna = "^2.3.0"
-scipy = "^1.8"
-pandas = "^1.3.0"
+pandas = "^1.1.0"
 scikit-learn = ">=0.24,<1.2"
 matplotlib = "*"
 

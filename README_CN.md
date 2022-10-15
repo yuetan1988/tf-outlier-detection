@@ -24,27 +24,7 @@
 
 **[Documentation](https://tf-outlier.readthedocs.io)** | **[Tutorials](https://tf-outlier.readthedocs.io/en/latest/tutorials.html)** | **[Release Notes](https://tf-outlier.readthedocs.io/en/latest/CHANGELOG.html)** | **[中文](./README_CN.md)**
 
-**tfod** is a python package for outlier detection, supporting the common deep learning methods in TensorFlow.
+**tfod** 是一个Python异常检测工具.
 
-## Tutorial
+中文名：外包，源于OD其实就是外包，加上这确实是一个包。
 
-Installation
-
-```bash
-pip install tensorflow
-pip isntall tfod
-```
-
-Usage
-
-```python
-import tensorflow as tf
-import tfod
-from tfod import AutoModel
-
-data = tfod.load('ecg')
-model = AutoModel('lstm').from_checkpoint('./')
-model.detect(data, plot=True)
-```
-
-## Examples
